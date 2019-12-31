@@ -5,9 +5,12 @@ import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 
+const startTime = Date.now()
+const duration = 30000
+
 const initialState = {
   colors: {},
-  startTime: Date.now()
+  startTime
 }
 
 function reducer(state = initialState, action) {
@@ -47,7 +50,6 @@ ReactDOM.render(
 serviceWorker.unregister();
 
 function setColor(n) {
-  if (n > numElements) n = n % numElements
   const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`
   store.dispatch({
     type: 'ADD_COLOR',
@@ -59,6 +61,7 @@ function setColor(n) {
     type: 'UPDATE_COUNT',
     numColorUpdates
   })
+  if (Date.now() - startTime >= duration) return
   setTimeout(() => setColor(n), 0)
 }
 
