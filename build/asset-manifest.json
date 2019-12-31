@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.75acd808.chunk.js",
-    "main.js.map": "/static/js/main.75acd808.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5ee1c62c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5ee1c62c.js.map",
-    "static/js/2.0823fbd1.chunk.js": "/static/js/2.0823fbd1.chunk.js",
-    "static/js/2.0823fbd1.chunk.js.map": "/static/js/2.0823fbd1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.bcb77de6bcc581c07f68ec75bb52ad02.js": "/precache-manifest.bcb77de6bcc581c07f68ec75bb52ad02.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.0823fbd1.chunk.js.LICENSE": "/static/js/2.0823fbd1.chunk.js.LICENSE"
+    "main.js": "/redux-performance/build/static/js/main.3b6613fe.chunk.js",
+    "main.js.map": "/redux-performance/build/static/js/main.3b6613fe.chunk.js.map",
+    "runtime-main.js": "/redux-performance/build/static/js/runtime-main.b9c94723.js",
+    "runtime-main.js.map": "/redux-performance/build/static/js/runtime-main.b9c94723.js.map",
+    "static/js/2.0823fbd1.chunk.js": "/redux-performance/build/static/js/2.0823fbd1.chunk.js",
+    "static/js/2.0823fbd1.chunk.js.map": "/redux-performance/build/static/js/2.0823fbd1.chunk.js.map",
+    "index.html": "/redux-performance/build/index.html",
+    "precache-manifest.6b75b5351a0d44ccc93d8962b8a0f4c7.js": "/redux-performance/build/precache-manifest.6b75b5351a0d44ccc93d8962b8a0f4c7.js",
+    "service-worker.js": "/redux-performance/build/service-worker.js",
+    "static/js/2.0823fbd1.chunk.js.LICENSE": "/redux-performance/build/static/js/2.0823fbd1.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ee1c62c.js",
+    "static/js/runtime-main.b9c94723.js",
     "static/js/2.0823fbd1.chunk.js",
-    "static/js/main.75acd808.chunk.js"
+    "static/js/main.3b6613fe.chunk.js"
   ]
 }

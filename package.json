@@ -21,6 +21,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage" : "https://will123195.github.io/redux-performance/build/",
   "browserslist": {
     "production": [
       ">0.2%",
